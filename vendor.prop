@@ -1,3 +1,8 @@
+# Alipay
+ro.hardware.fp.udfps=true
+persist.vendor.sys.fp.udfps.location.X_Y=445,1931
+persist.vendor.sys.fp.udfps.size.width_height=190,190
+
 # Audio
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
