@@ -13,6 +13,9 @@ genfscon sysfs /kernel/kprofiles/kp_mode                                        
 # CSC DC Dimming
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim                                                                            u:object_r:vendor_sysfs_graphics:s0
 
+# CSC DC Dimming
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim u:object_r:vendor_sysfs_graphics:s0
+
 # HBM
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/hbm                                                                               u:object_r:vendor_sysfs_graphics:s0
 

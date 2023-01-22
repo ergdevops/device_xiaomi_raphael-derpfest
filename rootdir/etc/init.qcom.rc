@@ -134,7 +134,11 @@ on boot
     enable vendor.dataadpl
 
 
-    # UDFPS Sensor
+    # CSC DC Dimming
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim
+    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim
+
+    # UDFPS Pressed
     chown system system /sys/devices/platform/goodix_ts.0/udfps_pressed
     chmod 0660 /sys/devices/platform/goodix_ts.0/udfps_pressed
     chown system system /sys/devices/platform/goodix_ts.0/udfps_enabled

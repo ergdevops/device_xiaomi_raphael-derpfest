@@ -30,6 +30,8 @@ import org.lineageos.settings.utils.FileUtils;
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
     private static final String TAG = "XiaomiParts";
+    private static final String DC_DIMMING_ENABLE_KEY = "dc_dimming_enable";
+    private static final String DC_DIMMING_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim";
     private static final String HBM_ENABLE_KEY = "hbm_mode";
     private static final String HBM_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm";
 
