@@ -332,6 +332,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.kill_timeout_ms=50 \
     ro.lmk.stall_limit_critical=40
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
