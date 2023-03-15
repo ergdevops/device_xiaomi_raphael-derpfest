@@ -885,19 +885,20 @@ vendor/lib64/libqti-iopd.so|337b353e72bf0ade636759e649475cb52221ea6f
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|162a2488ad279f7582e05326e88b4ca12ae319a0
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|a520fd07df2a5a6ea78372300978baf6deaf89da
 
-# Keymaster
+# Keymaster (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
+vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|9816f37e7487295e29a19d05c4a3e6b7b0ec35ea
+vendor/lib/libkeymasterdeviceutils.so|1795a8a4a92096c857db5a95b36f916a3d84264d
+vendor/lib/libkeymasterprovision.so|5a81ac44da5c5f182744e4207fe0e822d737099f
+vendor/lib/libkeymasterutils.so|c3750feb3b5f17b5d9b60e0cbb2cc976bbc1f8b0
+vendor/lib/libqtikeymaster4.so|c35faa51571519a0311642dd692387580ea259e7
+vendor/lib64/libkeymasterdeviceutils.so|ae35058e3a887c0434d8d90470c2b33a2b8ddc1a
+vendor/lib64/libkeymasterprovision.so|20f964d6c902e003e826272f6227d23523056d1e
+vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
+vendor/lib64/libqtikeymaster4.so|f02887e22f3cec87c2df4f78142923f0ded909e3
 
 # Listen
 vendor/etc/sound_trigger_mixer_paths.xml
