@@ -813,9 +813,9 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
-# MM OSAL - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/lib/libmmosal.so|37febc914b2c706a5df0009cc134e9d80690aec0
-vendor/lib64/libmmosal.so|dc6b82fa8d1bd1e7ee0c9dba2ec45b6b032efff0
+# MM OSAL - from LA.UM.9.1.r1-12900-SMxxx0.0
+vendor/lib/libmmosal.so|04a064cd6867ebba2c623a84606f76dbeea9d58e
+vendor/lib64/libmmosal.so|a90209ff9e2005c04dcc8e75703fef8866639d3e
 
 # Graphics (Adreno) (vendor) - from LA.UM.9.14.r1-20200-LAHAINA.QSSI13.0
 -vendor/app/com.qualcomm.qti.gpudrivers.msmnile.api30/com.qualcomm.qti.gpudrivers.msmnile.api30.apk|48806ee3413a591ab35a262b3c0f88fd8ea85fbf
