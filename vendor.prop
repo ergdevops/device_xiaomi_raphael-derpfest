@@ -174,6 +174,9 @@ ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1
 # DRM
 drm.service.enabled=true
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # FM
 vendor.hw.fm.init=0
 
