@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_raphael.mk
+    $(LOCAL_DIR)/derp_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_raphael-user \
-    superior_raphael-userdebug \
-    superior_raphael-eng
+    derp_raphael-user \
+    derp_raphael-userdebug \
+    derp_raphael-eng
