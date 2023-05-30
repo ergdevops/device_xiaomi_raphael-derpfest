@@ -209,3 +209,6 @@ ro.netflix.bsp_rev=Q855-16947-1
 # SoC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8150
+
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
