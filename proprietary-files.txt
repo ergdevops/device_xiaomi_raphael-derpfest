@@ -900,6 +900,10 @@ vendor/lib64/libkeymasterprovision.so|20f964d6c902e003e826272f6227d23523056d1e
 vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
 vendor/lib64/libqtikeymaster4.so|f02887e22f3cec87c2df4f78142923f0ded909e3
 
+# Keystore (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
+vendor/lib64/libkeystore-engine-wifi-hidl.so|9154f4421e3370e7c5d85ab30e57f6090d115f8b
+vendor/lib64/libkeystore-wifi-hidl.so|d3dbd9e3cf526c7735a0b3cd937000a93feb1866
+
 # Listen
 vendor/etc/sound_trigger_mixer_paths.xml
 vendor/etc/sound_trigger_mixer_paths_wcd9340.xml
