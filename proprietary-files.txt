@@ -961,8 +961,8 @@ vendor/lib64/unnhal-acc-adreno.so|bc3aa43c7cc4b16ac8991ada3c0f731a5b4e37fc
 vendor/lib64/unnhal-acc-common.so|e37d2113f99506f1de85902a0fdee0b443342942
 vendor/lib64/unnhal-acc-hvx.so|d5123c50b9523190c71d90acc2635ff21595bd1a
 
-# NFC
-vendor/lib/libsn100u_fw.so
+# NFC (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
+vendor/lib/libsn100u_fw.so|3f2e06db925881ef846e93b39d2d5563ad8e0995
 
 # NPU
 vendor/bin/npu_launcher
