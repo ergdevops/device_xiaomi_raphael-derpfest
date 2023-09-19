@@ -260,6 +260,9 @@ on post-fs-data
     chown radio radio /data/vendor/radio/qcril_prebuilt.db
     chmod 0660 /data/vendor/radio/qcril_prebuilt.db
 
+    # Lineage Health
+    chown system system /sys/class/power_supply/battery/mmi_charging_enable
+
     # Create vpp directory
     mkdir /data/vendor/vpp 0770 media media
 
