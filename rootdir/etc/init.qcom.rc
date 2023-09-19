@@ -365,6 +365,9 @@ on post-fs-data
     chown radio radio /data/vendor/radio/db_check_done
     chmod 0660 /data/vendor/radio/db_check_done
 
+    # Lineage Health
+    chown system system /sys/class/power_supply/battery/mmi_charging_enable
+
     #Create SWAP related dirs
     mkdir /data/vendor/swap 0770 root system
     chmod 2770 /data/vendor/swap
