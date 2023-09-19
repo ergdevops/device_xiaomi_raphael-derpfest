@@ -356,6 +356,10 @@ LOCAL_KERNEL := device/xiaomi/raphael-kernel/Image
 PRODUCT_COPY_FILES += \
 	$(LOCAL_KERNEL):kernel
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
