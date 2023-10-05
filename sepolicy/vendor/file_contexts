@@ -13,7 +13,6 @@
 /dev/drv8846_dev                                                u:object_r:motor_device:s0
 /dev/elliptic(.*)?                                              u:object_r:ultrasound_device:s0
 /dev/goodix_fp                                                  u:object_r:fingerprint_device:s0
-/dev/thermal(/.*)?                                              u:object_r:thermal_link_device:s0
 
 # Fingerprint
 /data/vendor/goodix(/.*)?                                       u:object_r:fingerprint_data_file:s0
@@ -24,11 +23,8 @@
 
 # HALs
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi_raphael              u:object_r:hal_fingerprint_default_exec:s0
-/vendor/bin/hw/android\.hardware\.light-service\.xiaomi                                             u:object_r:hal_light_default_exec:s0
-/vendor/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr                                   u:object_r:hal_power_default_exec:s0
-/vendor/bin/hw/android\.hardware\.power\.stats@1\.0-service\.raphael                                u:object_r:hal_power_stats_default_exec:s0
-/vendor/bin/sendhint                                                                                u:object_r:sendhint_vendor_exec:s0
-/vendor/bin/hw/android\.hardware\.thermal-service\.pixel                                            u:object_r:hal_thermal_default_exec:s0
+/vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_raphael                                u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.power-service\.xiaomi-libperfmgr                                  u:object_r:hal_power_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.motor@1\.0-service                                         u:object_r:hal_motor_default_exec:s0
 /vendor/bin/mlipayd@1\.1                                                                            u:object_r:hal_mlipay_default_exec:s0
 
@@ -59,7 +55,8 @@
 /vendor/bin/hw/android\.hardware\.nfc_snxxx@1\.2-service                u:object_r:hal_nfc_default_exec:s0
 
 # Thermal
-/vendor/bin/thermal_symlinks                                    u:object_r:init-thermal-symlinks-sh_exec:s0
+/vendor/bin/mi_thermald                                         u:object_r:mi_thermald_exec:s0
+/data/vendor/thermal(/.*)?                                      u:object_r:thermal_data_file:s0
 
 # UFS
 /sys/devices/platform/soc/[a-f0-9]+.ufshc/clkgate_enable        u:object_r:vendor_sysfs_scsi_host:s0
