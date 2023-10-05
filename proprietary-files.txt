@@ -1190,12 +1190,29 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 # Subsystem
 vendor/bin/ssr_setup
 
-# Thermal - from coral-user-12-SQ1A.220105.002-7961164-release-keys
-vendor/bin/thermal-engine|01cb7dc998c39016b54089c18921ad7d65b3c675
+# Thermal
+vendor/bin/mi_thermald
+vendor/bin/thermal_factory
+vendor/etc/init/init.mi_thermald.rc
+vendor/etc/thermal-arvr.conf
+vendor/etc/thermal-camera.conf
+vendor/etc/thermal-chg-only.conf
+vendor/etc/thermal-class0.conf
+vendor/etc/thermal-extreme.conf
+vendor/etc/thermal-map.conf
+vendor/etc/thermal-nolimits.conf
+vendor/etc/thermal-normal.conf
+vendor/etc/thermal-phone.conf
+vendor/etc/thermal-tgame.conf
+vendor/etc/thermal-youtobe.conf
+vendor/etc/thermald-devices.conf
 
-# ThermalClient
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+# Thermal - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/thermal-engine|dabe58b48effdf5ac401d6c467af3f7c29c3418e
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/lib/libthermalclient.so|647d57a7fd71fb3494d47f0d30ace36d45ba54eb
+vendor/lib64/libthermalclient.so|2fe5d8e4d3413795626a4c4fb6f0e4b6bf775ebe
 
 # Time - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 -vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923

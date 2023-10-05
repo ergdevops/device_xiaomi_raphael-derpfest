@@ -79,6 +79,11 @@ on late-init
     chown system system /sys/devices/virtual/thermal/tz-by-name/bcl-virt-monitor/trip_point_0_temp
     chown system system /sys/devices/virtual/thermal/tz-by-name/bcl-virt-monitor/trip_point_0_hyst
 
+    chmod 0664 /sys/class/thermal/thermal_message/sconfig
+    chown system system /sys/class/thermal/thermal_message/sconfig
+    chmod 0666 /sys/class/thermal/thermal_message/temp_state
+    chown system system /sys/class/thermal/thermal_message/temp_state
+
 on early-fs
     start vold
 
@@ -276,11 +281,6 @@ service vendor.sec_nvm /vendor/bin/sec_nvm
     class core
     user system
     group system
-
-service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/thermal-engine-msmnile-normal_mode.conf
-    class main
-    user root
-    group root
 
 service vendor.lowi /vendor/bin/sscrpcd
    class core

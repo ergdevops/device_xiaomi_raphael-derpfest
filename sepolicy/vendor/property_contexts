@@ -26,7 +26,7 @@ vendor.powerhal.            		u:object_r:vendor_power_prop:s0
 persist.sensor.sardisable   		u:object_r:vendor_sensors_prop:s0
 
 # Thermal
-vendor.thermal.             		u:object_r:vendor_thermal_prop:s0
+vendor.sys.thermal.         u:object_r:vendor_thermal_normal_prop:s0
 
 # Fastbootd
 ro.fastbootd.available 			u:object_r:exported_default_prop:s0
