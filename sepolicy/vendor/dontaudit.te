@@ -9,8 +9,6 @@ dontaudit {
   vendor_cnd
   vendor_dpmd
   vendor_hal_imsrtp
-  vendor_hal_rcsservice
-  vendor_ims
   vendor_netmgrd
   vendor_qti
   vendor_sensors_qti
