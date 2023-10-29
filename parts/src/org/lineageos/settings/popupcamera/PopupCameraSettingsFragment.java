@@ -16,7 +16,6 @@
 
 package org.lineageos.settings.popupcamera;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -48,7 +47,7 @@ public class PopupCameraSettingsFragment extends PreferenceFragment
         mCalibrationPreference.setOnPreferenceClickListener(this);
 
         mAlwaysCameraSwitch = (SwitchPreference) findPreference(KEY_ALWAYS_CAMERA_DIALOG);
-        boolean enabled = Settings.System.getInt(getContext().getContentResolver(),KEY_ALWAYS_CAMERA_DIALOG, 0) == 1;
+        boolean enabled = Settings.System.getInt(getContext().getContentResolver(), KEY_ALWAYS_CAMERA_DIALOG, 0) == 1;
         mAlwaysCameraSwitch.setChecked(enabled);
         mAlwaysCameraSwitch.setOnPreferenceChangeListener(this);
     }
@@ -58,8 +57,8 @@ public class PopupCameraSettingsFragment extends PreferenceFragment
         if (preference == mAlwaysCameraSwitch) {
             boolean enabled = (Boolean) newValue;
             Settings.System.putInt(getContext().getContentResolver(),
-                KEY_ALWAYS_CAMERA_DIALOG,
-                enabled ? 1 : 0);
+                    KEY_ALWAYS_CAMERA_DIALOG,
+                    enabled ? 1 : 0);
         }
         return true;
     }
@@ -67,14 +66,20 @@ public class PopupCameraSettingsFragment extends PreferenceFragment
     @Override
     public boolean onPreferenceClick(Preference preference) {
         if (MOTOR_CALIBRATION_KEY.equals(preference.getKey())) {
-            MotorCalibrationWarningDialog fragment = new MotorCalibrationWarningDialog();
+            MotorCalibrationWarningDialog fragment = new MotorCalibrationWarningDialog(mPopupCameraService);
             fragment.show(getFragmentManager(), "motor_calibration_warning_dialog");
             return true;
         }
         return false;
     }
 
-    private class MotorCalibrationWarningDialog extends DialogFragment {
+    public static class MotorCalibrationWarningDialog extends DialogFragment {
+        private PopupCameraService mPopupCameraService;
+
+        public MotorCalibrationWarningDialog(PopupCameraService popupCameraService) {
+            this.mPopupCameraService = popupCameraService;
+        }
+
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
             return new AlertDialog.Builder(getActivity())
@@ -82,7 +87,9 @@ public class PopupCameraSettingsFragment extends PreferenceFragment
                     .setMessage(R.string.popup_calibration_warning_text)
                     .setPositiveButton(R.string.popup_camera_calibrate_now,
                             (dialog, which) -> {
-                                mPopupCameraService.calibrateMotor();
+                                if (mPopupCameraService != null) {
+                                    mPopupCameraService.calibrateMotor();
+                                }
                                 dialog.cancel();
                             })
                     .setNegativeButton(android.R.string.cancel, (dialog, which) -> dialog.cancel())
