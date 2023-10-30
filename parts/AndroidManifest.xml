@@ -45,7 +45,7 @@
 
         <service
             android:name=".display.DcDimmingTileService"
-            android:exported="false"
+            android:exported="true"
             android:icon="@drawable/ic_dc_tile"
             android:label="@string/dc_dimming_enable_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -57,7 +57,7 @@
 
         <service
             android:name=".display.HBMTileService"
-            android:exported="false"
+            android:exported="true"
             android:icon="@drawable/ic_hbm_tile"
             android:label="@string/hbm_mode_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
