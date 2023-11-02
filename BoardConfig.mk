@@ -128,10 +128,6 @@ ODM_MANIFEST_RAPHAEL_FILES := \
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/mmi_charging_enable
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
