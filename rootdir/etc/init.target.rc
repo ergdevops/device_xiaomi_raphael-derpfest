@@ -53,6 +53,7 @@ on init
     chmod 0660 /dev/cpuset/camera-daemon/tasks
 
     # ZRAM setup
+    write /sys/block/zram0/comp_algorithm lz4
     write /proc/sys/vm/page-cluster 0
 
 on early-fs
@@ -155,6 +156,9 @@ on property:sys.boot_completed=1
     write /dev/cpuctl/camera-daemon/cpu.uclamp.max max
     write /dev/cpuctl/camera-daemon/cpu.uclamp.min 50
     write /dev/cpuctl/camera-daemon/cpu.uclamp.latency_sensitive 1
+
+    # Enable ZRAM on boot_complete
+    swapon_all /vendor/etc/fstab.zram
 
     # Runtime fs tuning
     write /sys/block/sda/queue/nr_requests 128
