@@ -1,4 +1,62 @@
 <compatibility-matrix version="2.0" type="framework">
+/<hal format="aidl" optional="true">
+    <name>android.hardware.bluetooth.audio</name>
+    <interface>
+        <name>IBluetoothAudioProviderFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.cas</name>
+    <interface>
+        <name>IMediaCasService</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.light</name>
+    <interface>
+        <name>ILights</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.power</name>
+    <interface>
+        <name>IPower</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.secure_element</name>
+    <version>1.0-2</version>
+    <interface>
+        <name>ISecureElement</name>
+        <instance>SIM1</instance>
+        <instance>SIM2</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi</name>
+    <interface>
+        <name>IWifi</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+    <interface>
+        <name>ISupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>vendor.lineage.health</name>
+    <interface>
+        <name>IChargingControl</name>
+        <instance>default</instance>
+    </interface>
+</hal>
 	<hal format="hidl" optional="true">
 		<name>android.hardware.audio.effect</name>
 		<version>7.0</version>
