@@ -32,8 +32,8 @@ genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-npu/wakeup                  
 genfscon sysfs /devices/platform/soc/soc:qcom,smp2p_sleepstate/wakeup                                                                              u:object_r:sysfs_wakeup:s0
 
 # KProfiles
-genfscon sysfs /module/kprofiles/parameters/auto_kprofiles u:object_r:sysfs_kprofiles:s0
-genfscon sysfs /module/kprofiles/parameters/kp_mode u:object_r:sysfs_kprofiles:s0
+genfscon sysfs /module/kprofiles/parameters/auto_kp u:object_r:sysfs_kprofiles:s0
+genfscon sysfs /kernel/kprofiles/kp_mode u:object_r:sysfs_kprofiles:s0
 
 # udfps sensor
 genfscon sysfs /devices/platform/goodix_ts.0/udfps_pressed u:object_r:vendor_sysfs_sensors:s0
@@ -42,6 +42,10 @@ genfscon sysfs /devices/platform/goodix_ts.0/udfps_enabled u:object_r:vendor_sys
 # double tap sensor
 genfscon sysfs /devices/platform/goodix_ts.0/double_tap_pressed u:object_r:vendor_sysfs_sensors:s0
 genfscon sysfs /devices/platform/goodix_ts.0/double_tap_enabled u:object_r:vendor_sysfs_sensors:s0
+
+# single tap sensor
+genfscon sysfs /devices/platform/goodix_ts.0/single_tap_pressed u:object_r:vendor_sysfs_sensors:s0
+genfscon sysfs /devices/platform/goodix_ts.0/single_tap_enabled u:object_r:vendor_sysfs_sensors:s0
 
 # Extcon sysfs
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,usb-pdphy@1700/extcon                 u:object_r:sysfs_extcon:s0
