@@ -689,11 +689,12 @@ vendor/lib64/libmulawdec.so
 vendor/lib/libmmosal.so|04a064cd6867ebba2c623a84606f76dbeea9d58e
 vendor/lib64/libmmosal.so|a90209ff9e2005c04dcc8e75703fef8866639d3e
 
-# Media
-system_ext/lib/libmmosal.so
-system_ext/lib64/libmmosal.so
-vendor/lib/libqcodec2.so
-vendor/lib64/libqcodec2.so
+# Media (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
+vendor/etc/seccomp_policy/codec2.vendor.base.policy|05b0779b5da2ea640984d46a46a796edeaab5fab
+vendor/etc/seccomp_policy/codec2.vendor.ext.policy|6a9a9eb3261048f02805261568097410e1a23b2d
+vendor/etc/system_properties.xml|d4c572e5d0915c907e6308c4f8b12e54ad659bf0
+vendor/lib/libqcodec2.so|c5673b5f377fc855f1467ea2b3c3ed47ca68bbfb
+vendor/lib64/libmmosal.so|a90209ff9e2005c04dcc8e75703fef8866639d3e
 
 # Neural Networks (vendor) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
 vendor/lib64/unnhal-acc-hta.so|6cb1ca10aa1c82e59641d545d9f1ac7f00df8621
