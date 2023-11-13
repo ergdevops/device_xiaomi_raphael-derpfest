@@ -262,7 +262,7 @@ service vendor.per_proxy /vendor/bin/pm-proxy
     group system
     disabled
 
-on charger
+on property:init.svc.vendor.charger=running
     start vendor.power_off_alarm
     setprop sys.usb.controller a600000.dwc3
 

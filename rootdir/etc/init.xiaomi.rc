@@ -59,7 +59,7 @@ on boot
 
     chown system system /sys/class/thermal/thermal_message/sconfig
 
-on charger
+on property:init.svc.vendor.charger=running
     mkdir /mnt/vendor/persist
     chown root system /mnt/vendor/persist
     chmod 0771 /mnt/vendor/persist
