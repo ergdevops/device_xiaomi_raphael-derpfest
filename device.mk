@@ -338,8 +338,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libcodec2_vndk.vendor \
-    libavservices_minijail \
-    libavservices_minijail_vendor \
     libcodec2_hidl@1.0.vendor \
     libmm-omxcore \
     libOmxAacEnc \
