@@ -28,18 +28,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/raphael/raphael-vendor.mk)
 
-# Get Qcom components
-TARGET_EXCLUDE_QCOM_SEPOLICY := true
-TARGET_ADRENO_COMPONENT_VARIANT := adreno-r
-TARGET_MEDIA_COMPONENT_VARIANT := media-legacy
-TARGET_BOARD_PLATFORM := msmnile
-TARGET_COMMON_QTI_COMPONENTS := \
-    adreno \
-    media \
-    av
+# Get Adreno aspects
+$(call inherit-product, device/qcom/common/vendor/adreno-6xx-legacy/qti-adreno-6xx-legacy.mk)
 
-$(call inherit-product, device/qcom/common/common.mk)
-$(call inherit-product, device/qcom/common/vendor/adreno-r/qti-adreno-r.mk)
+# Get Media aspects
 $(call inherit-product, device/qcom/common/vendor/media-legacy/qti-media-legacy.mk)
 $(call inherit-product, device/qcom/common/system/av/qti-av.mk)
 
