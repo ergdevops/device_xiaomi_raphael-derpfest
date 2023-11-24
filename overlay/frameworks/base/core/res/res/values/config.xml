@@ -504,9 +504,6 @@
         <item>"/system/bin/surfaceflinger"</item>
         <item>"/system/framework/framework.jar"</item>
         <item>"/system/framework/services.jar"</item>
-        <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
-        <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
-        <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
         <item>"/system/framework/ext.jar"</item>
         <item>"/system/lib/libEGL.so"</item>
         <item>"/system/lib/libGLESv1_CM.so"</item>
@@ -516,6 +513,7 @@
         <item>"/system/lib/libhwui.so"</item>
         <item>"/system/lib/libui.so"</item>
         <item>"/system/lib/libvulkan.so"</item>
+        <item>"/vendor/lib64/hw/fingerprint.goodix_fod.msmnile.so"</item>
         <item>"/system/lib64/libEGL.so"</item>
         <item>"/system/lib64/libGLESv1_CM.so"</item>
         <item>"/system/lib64/libGLESv2.so"</item>
@@ -542,7 +540,6 @@
         <item>"/vendor/lib/egl/libEGL_adreno.so"</item>
         <item>"/vendor/lib/egl/libGLESv1_CM_adreno.so"</item>
         <item>"/vendor/lib/egl/libGLESv2_adreno.so"</item>
-        <item>"/vendor/lib64/hw/fingerprint.goodix_fod.msmnile.so"</item>
         <item>"/vendor/lib/hw/vulkan.adreno.so"</item>
         <item>"/vendor/lib/libCB.so"</item>
         <item>"/vendor/lib/libOpenCL.so"</item>
@@ -562,6 +559,7 @@
         <item>"/vendor/lib64/egl/libEGL_adreno.so"</item>
         <item>"/vendor/lib64/egl/libGLESv1_CM_adreno.so"</item>
         <item>"/vendor/lib64/egl/libGLESv2_adreno.so"</item>
+        <item>"/vendor/lib64/hw/goodix.fod.msmnile.so"</item>
         <item>"/vendor/lib64/hw/vulkan.adreno.so"</item>
         <item>"/vendor/lib64/libCB.so"</item>
         <item>"/vendor/lib64/libOpenCL.so"</item>
@@ -574,6 +572,8 @@
         <item>"/vendor/lib64/libllvm-glnext.so"</item>
         <item>"/vendor/lib64/libllvm-qcom.so"</item>
         <item>"/vendor/lib64/libllvm-qgl.so"</item>
+        <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
     </string-array>
 
     <!-- Should the pinner service pin the Home application? -->
