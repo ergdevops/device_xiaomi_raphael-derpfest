@@ -54,6 +54,10 @@ mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 mm.enable.smoothstreaming=true
 
+# lmkd
+ro.lmk.thrashing_limit=200
+ro.lmk.psi_partial_stall_ms=120
+
 # Netflix custom property
 ro.netflix.bsp_rev=Q855-16947-1
 
