@@ -207,7 +207,7 @@ debug.sf.use_phase_offsets_as_durations=1
 ro.netflix.bsp_rev=Q855-16947-1
 
 # SoC
-ro.soc.manufacturer=QTI
+# ro.soc.manufacturer=QTI
 ro.soc.model=SM8150
 
 # Phantom process monitoring
