@@ -39,13 +39,6 @@ ro.surface_flinger.protected_contents=true
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 debug.cpurend.vsync=false
 
-# Set lmkd options
-ro.config.low_ram = false
-ro.lmk.kill_heaviest_task = true
-ro.lmk.kill_timeout_ms = 100
-ro.lmk.use_minfree_levels = true
-ro.lmk.log_stats = true
-
 # Media
 av.offload.enable=true
 media.stagefright.enable-player=true
