@@ -128,6 +128,7 @@ vendor.display.qdcm.mode_combine=1
 persist.sys.sf.native_mode=2
 persist.sys.sf.color_mode=9
 debug.sf.enable_transaction_tracing=false
+ro.surface_flinger.enable_frame_rate_override=false
 
 # Display post-processing
 ro.vendor.display.ad=1
