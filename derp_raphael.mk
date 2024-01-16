@@ -30,7 +30,7 @@ TARGET_ENABLE_BLUR := true
 
 # Derp
 DERP_BUILDTYPE := Official
-
+TARGET_USES_PICO_GAPPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 
 # Quick Tap Feature
