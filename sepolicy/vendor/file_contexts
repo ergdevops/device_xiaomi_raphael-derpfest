@@ -23,7 +23,7 @@
 /sys/devices/virtual/touch/tp_dev/fp_state                      u:object_r:vendor_sysfs_sensors:s0
 
 # HALs
-/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi                      u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi                           u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/android\.hardware\.light-service\.xiaomi                                             u:object_r:hal_light_default_exec:s0
 /vendor/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr                                   u:object_r:hal_power_default_exec:s0
 /vendor/bin/hw/android\.hardware\.power\.stats@1\.0-service\.raphael                                u:object_r:hal_power_stats_default_exec:s0

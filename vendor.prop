@@ -129,6 +129,10 @@ drm.service.enabled=true
 # Fastbootd
 ro.fastbootd.available=true
 
+# Fingerprint
+ro.vendor.fingerprint.type=udfps_optical
+ro.vendor.fingerprint.sensor_location=540|2026|95|local:4630946693002713985
+
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
