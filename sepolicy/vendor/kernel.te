@@ -5,5 +5,7 @@ userdebug_or_eng(`
 # Ignore the socket if it fails to create
 dontaudit kernel self:qipcrtr_socket create;
 
+dontaudit kernel self:capability { dac_override dac_read_search };
+
 allow kernel per_boot_file:file r_file_perms;
 allow kernel system_data_file:file { read };

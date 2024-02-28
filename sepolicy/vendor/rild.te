@@ -1,0 +1,2 @@
+get_prop(rild, vendor_pd_locater_dbg_prop)
+get_prop(rild, vendor_persist_rcs_prop)
