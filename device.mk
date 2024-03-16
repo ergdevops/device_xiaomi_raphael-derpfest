@@ -597,6 +597,7 @@ PRODUCT_PRODUCT_VNDK_VERSION := current
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
+    android.media.audio.common.types-V2-cpp \
     android.hardware.wifi-service \
     hostapd \
     libwifi-hal-ctrl \
