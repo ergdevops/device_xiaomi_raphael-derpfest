@@ -515,6 +515,7 @@ vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libQTEEConnector_listener.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libStDrvInt.so
 vendor/lib64/libbase64.so
