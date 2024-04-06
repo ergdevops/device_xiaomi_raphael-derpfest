@@ -660,6 +660,11 @@
       "Node": "TAminclamp",
       "Duration": 0,
       "Value": "0"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Type": "EndHint",
+      "Value": "DISPLAY_UPDATE_IMMINENT"
     }
   ]
 }
