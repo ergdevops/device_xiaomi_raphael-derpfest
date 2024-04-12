@@ -48,4 +48,7 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">100</integer>
+
+    <!-- Whether to display the "Enable wireless display" menu -->
+    <bool name="config_show_wifi_display_enable_menu">false</bool>
 </resources>
