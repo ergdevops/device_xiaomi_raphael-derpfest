@@ -24,6 +24,10 @@ persist.vendor.ims.disableQXDMLogs=1
 persist.vendor.radio.report_codec=1
 persist.vendor.radio.vdp_on_ims_cap=1
 
+# Media
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+media.stagefright.thumbnail.prefer_hw_codecs=true
+
 # LMKD
 ro.config.low_ram=false
 ro.lmk.log_stats=true
