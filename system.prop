@@ -25,8 +25,19 @@ persist.vendor.radio.report_codec=1
 persist.vendor.radio.vdp_on_ims_cap=1
 
 # Media
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+av.offload.enable=true
+media.stagefright.enable-player=true
+media.stagefright.enable-http=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
+media.aac_51_output_enabled=true
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+mmp.enable.3g2=true
+persist.mm.enable.prefetch=true
+mm.enable.smoothstreaming=true
 
 # LMKD
 ro.config.low_ram=false
