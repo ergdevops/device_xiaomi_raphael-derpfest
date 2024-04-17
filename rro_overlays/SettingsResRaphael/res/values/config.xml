@@ -51,4 +51,7 @@
 
     <!-- Whether to display the "Enable wireless display" menu -->
     <bool name="config_show_wifi_display_enable_menu">false</bool>
+
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
 </resources>
