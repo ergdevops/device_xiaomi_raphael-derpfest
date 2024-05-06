@@ -19,6 +19,7 @@ package org.lineageos.settings.popupcamera;
 import android.annotation.NonNull;
 import android.app.AlertDialog;
 import android.app.Service;
+import android.content.Context;
 import android.content.BroadcastReceiver;
 import android.content.DialogInterface;
 import android.content.Intent;
