@@ -1,1 +1,1 @@
-allow { domain - isolated_app_all } sysfs_kgsl:lnk_file read;
+allow { domain - isolated_app_all } vendor_sysfs_kgsl:lnk_file read;
