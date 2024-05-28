@@ -43,6 +43,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    bootable/deprecated-ota \
     vendor/qcom/opensource/usb/etc \
     hardware/google/interfaces \
     hardware/google/pixel \
