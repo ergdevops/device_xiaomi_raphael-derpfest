@@ -429,8 +429,17 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor \
+    libjson \
+    libjsoncpp.vendor
+
+# QTI
+PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
-    libqti_vndfwk_detect.vendor
+    libqti_vndfwk_detect.vendor \
+    libsqlite.vendor \
+    libvndfwk_detect_jni.qti \
+    libvndfwk_detect_jni.qti.vendor
 
 # QCOM
 PRODUCT_COPY_FILES += \
@@ -596,6 +605,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     suspend.short_suspend_threshold_millis=2000 \
     suspend.short_suspend_backoff_enabled=true \
     suspend.max_sleep_time_millis=40000
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libpng.vendor
 
 # Enable zygote critical window.
 PRODUCT_PROPERTY_OVERRIDES += \
