@@ -482,12 +482,15 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # QMI
 PRODUCT_PACKAGES += \
-    libjson
+    libcurl.vendor \
+    libjson \
+    libjsoncpp.vendor
 
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
@@ -639,6 +642,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
+
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libpng.vendor
 
 # Enable zygote critical window.
 PRODUCT_PROPERTY_OVERRIDES += \
