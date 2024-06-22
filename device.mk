@@ -289,7 +289,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml \
-    libipanat
+    libipanat \
+    liboffloadhal
 
 # IRSC
 PRODUCT_COPY_FILES += \
