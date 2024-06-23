@@ -944,8 +944,8 @@ system_ext/lib64/lib-imsvt.so|f795cc87119b49587dbb1f3e4349fcf67b0610ed
 system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
 system_ext/lib64/lib-imsvtutils.so|9a7f904b12a066038c2b5725610e8dd45e3f75ed
 system_ext/lib64/libdiag_system.so|46b48593c913d5cbb05518b31721bb0f33e6c1ba
-system_ext/lib64/libimscamera_jni.so|0394fbe375893f9aa2fee5e28e5c657575025a12
-system_ext/lib64/libimsmedia_jni.so|a8271a46c31ed50a1f7f94d7ec78fb534f432296
+system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|0394fbe375893f9aa2fee5e28e5c657575025a12
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|a8271a46c31ed50a1f7f94d7ec78fb534f432296
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|34da5e45ae4817ccff75c6b8d1d0c125ebd253ed
 
 # Radio (IMS) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
