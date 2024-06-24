@@ -36,6 +36,86 @@
 		</interface>
 	</hal>
 	<hal format="hidl" optional="true">
+	    <name>android.hardware.light</name>
+	    <version>2.0</version>
+	    <interface>
+	        <name>ILight</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
+	    <name>android.hardware.media.omx</name>
+	    <version>1.0</version>
+	    <interface>
+	        <name>IOmx</name>
+	        <instance>default</instance>
+	    </interface>
+	    <interface>
+	        <name>IOmxStore</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
+	    <name>android.hardware.memtrack</name>
+	    <version>1.0</version>
+	    <interface>
+	        <name>IMemtrack</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
+	    <name>android.hardware.radio</name>
+	    <version>1.0-2</version>
+	    <interface>
+	        <name>ISap</name>
+	        <instance>slot1</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
+	    <name>android.hardware.sensors</name>
+	    <version>1.0</version>
+	    <interface>
+	        <name>ISensors</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
+	    <name>android.hardware.tetheroffload.control</name>
+	    <version>1.0</version>
+	    <interface>
+	        <name>IOffloadControl</name>
+ 	       <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="aidl" optional="true">
+	    <name>android.hardware.thermal</name>
+	    <interface>
+	        <name>IThermal</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="aidl" optional="true">
+	    <name>android.hardware.wifi</name>
+	    <interface>
+	        <name>IWifi</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="aidl" optional="true">
+	    <name>android.hardware.wifi.hostapd</name>
+	    <interface>
+	        <name>IHostapd</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="aidl" optional="true">
+	    <name>android.hardware.wifi.supplicant</name>
+	    <interface>
+	        <name>ISupplicant</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
 		<name>android.hardware.audio.effect</name>
 		<version>7.0</version>
 		<interface>
@@ -69,11 +149,35 @@
 	</hal>
 	<hal format="aidl" optional="true">
 		<name>android.hardware.bluetooth.audio</name>
-		<version>3</version>
+		<version>4</version>
 		<interface>
 			<name>IBluetoothAudioProviderFactory</name>
 			<instance>default</instance>
 		</interface>
+	</hal>
+	<hal format="hidl" optional="true">
+   	 <name>android.hardware.bluetooth</name>
+   	 <version>1.0</version>
+  	  <interface>
+  	      <name>IBluetoothHci</name>
+	        <instance>default</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
+	    <name>android.hardware.camera.provider</name>
+	    <version>2.0-4</version>
+	    <interface>
+	        <name>ICameraProvider</name>
+	        <instance>legacy/0</instance>
+	    </interface>
+	</hal>
+	<hal format="hidl" optional="true">
+	    <name>android.hardware.gatekeeper</name>
+	    <version>1.0</version>
+	    <interface>
+	        <name>IGatekeeper</name>
+	        <instance>default</instance>
+	    </interface>
 	</hal>
 	<hal format="hidl" optional="true">
 		<name>android.hardware.cas</name>
