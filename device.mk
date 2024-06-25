@@ -619,6 +619,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hidl.memory.block@1.0.vendor
 
+# Update
+AB_OTA_UPDATER := false
+
 # USB
 PRODUCT_PACKAGES += \
     usb_compositions.conf \
