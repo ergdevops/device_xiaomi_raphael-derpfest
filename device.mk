@@ -170,6 +170,9 @@ PRODUCT_BOARD_PLATFORM := msmnile
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
+    libcamera_metadata.vendor \
+    libexif.vendor \
+    libyuv.vendor \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
     libgui_vendor \
@@ -371,6 +374,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Missing vendor packages
+PRODUCT_PACKAGES += \
+    libdumpstateutil.vendor \
+
 # Mlipay
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mlipay@1.1.vendor \
@@ -483,8 +490,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # QMI
 PRODUCT_PACKAGES += \
     libcurl.vendor \
-    libjson \
-    libjsoncpp.vendor
+    libjson
 
 # QTI
 PRODUCT_PACKAGES += \
