@@ -613,3 +613,10 @@ PRODUCT_PACKAGES += \
 # Enable zygote critical window.
 PRODUCT_PROPERTY_OVERRIDES += \
     zygote.critical_window.minute=10
+
+
+
+# Missing Vendor Packages
+PRODUCT_PACKAGES += \
+    libutilscallstack.vendor \
+    libdumpstateutil.vendor
