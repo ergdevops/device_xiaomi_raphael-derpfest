@@ -1,27 +1,32 @@
 # Camera
-camera.                     u:object_r:vendor_camera_prop:s0
-persist.camera.             u:object_r:vendor_camera_prop:s0
-persist.vendor.camera       u:object_r:vendor_camera_prop:s0
-vendor.camera.              u:object_r:vendor_camera_prop:s0
+camera.                     		u:object_r:vendor_camera_prop:s0
+persist.camera.             		u:object_r:vendor_camera_prop:s0
+persist.vendor.camera       		u:object_r:vendor_camera_prop:s0
+persist.vendor.low.cutoff		u:object_r:vendor_camera_prop:s0
+persist.vendor.aiie_capture_dump.  	u:object_r:vendor_camera_prop:s0
+persist.vendor.aiie_capture_log.   	u:object_r:vendor_camera_prop:s0
+ro.camera.res.fmq.size            	u:object_r:vendor_camera_prop:s0
+ro.camera.req.fmq.size   		u:object_r:vendor_camera_prop:s0
+vendor.camera.              		u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
-gf.debug.                   u:object_r:vendor_fp_prop:s0
-persist.vendor.sys.fp.      u:object_r:vendor_fp_prop:s0
+gf.debug.                   		u:object_r:vendor_fp_prop:s0
+persist.vendor.sys.fp.      		u:object_r:vendor_fp_prop:s0
 
 # FM
-ro.vendor.fm.use_audio_session	u:object_r:exported_system_prop:s0
+ro.vendor.fm.use_audio_session		u:object_r:exported_system_prop:s0
 
 # Mlipay
-persist.vendor.sys.pay.     u:object_r:vendor_tee_listener_prop:s0
+persist.vendor.sys.pay.     		u:object_r:vendor_tee_listener_prop:s0
 
 # Power
-vendor.powerhal.            u:object_r:vendor_power_prop:s0
+vendor.powerhal.            		u:object_r:vendor_power_prop:s0
 
 # Sensors
-persist.sensor.sardisable   u:object_r:vendor_sensors_prop:s0
+persist.sensor.sardisable   		u:object_r:vendor_sensors_prop:s0
 
 # Thermal
-vendor.thermal.             u:object_r:vendor_thermal_prop:s0
+vendor.thermal.             		u:object_r:vendor_thermal_prop:s0
 
 # Fastbootd
-ro.fastbootd.available                  u:object_r:exported_default_prop:s0
+ro.fastbootd.available 			u:object_r:exported_default_prop:s0
