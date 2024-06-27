@@ -413,7 +413,7 @@ vendor/etc/sdr_config.cfg
 # Display (Postprocessing) (vendor) - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
 vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
-
+vendor/lib64/libdpps.so
 # DPM (system) - from LA.QSSI.12.0.r1-05800.02-qssi.0
 framework/tcmclient.jar|60fc12be7581c89cbdc3a5ba0526b423af492baa
 system_ext/bin/dpmd|b11102e06c7e169b3da762a0db408cb8e16d7b01
