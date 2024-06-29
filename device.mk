@@ -627,7 +627,8 @@ PRODUCT_PACKAGES += \
     liba2dpoffload \
     libldacBT_bco \
     libstagefright_softomx_plugin.vendor \
-    libprocessgroup.vendor
+    libprocessgroup.vendor \
+    libpiex
 
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
