@@ -501,6 +501,7 @@ PRODUCT_PACKAGES += \
 
 # Shim
 PRODUCT_PACKAGES += \
+    libpiex_shim \
     libwatermark_shim
 
 # Task Profiles
