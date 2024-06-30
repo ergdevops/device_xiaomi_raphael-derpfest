@@ -638,6 +638,7 @@ PRODUCT_PACKAGES += \
     libnetutils.vendor:64 \
     libsqlite.vendor:64 \
     libprocessgroup.vendor \
+    libdumpstateutil.vendor \
     libjsoncpp.vendor \
     libcurl.vendor \
     libpng.vendor:32
