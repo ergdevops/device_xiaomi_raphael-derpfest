@@ -27,6 +27,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     ApertureOverlay \
     CarrierConfigOverlay \
+    DeviceAsWebcamRaphael \
     FaceUnlockServiceOverlay \
     FrameworksResRaphael \
     SettingsProviderOverlayGlobal \
