@@ -94,10 +94,6 @@ vendor/etc/mixer_paths_overlay_static.xml
 vendor/etc/mixer_paths_pahu.xml
 vendor/etc/mixer_paths_tavil.xml
 
-# Audio (Hardware)
-vendor/lib/hw/audio.primary.msmnile.so
-vendor/lib64/hw/audio.primary.msmnile.so
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
