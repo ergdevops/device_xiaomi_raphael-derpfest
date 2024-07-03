@@ -51,9 +51,9 @@ void set_dalvik_heap() {
 
     sysinfo(&sys);
 
-    if (sys.totalram > GB(5))
+    if (sys.totalram > GB(11))
         dhi = &dalvik_heap_info_12288;
-    else if (sys.totalram > GB(3))
+    else if (sys.totalram > GB(7))
         dhi = &dalvik_heap_info_8192;
     else
         dhi = &dalvik_heap_info_6144;
