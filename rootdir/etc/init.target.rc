@@ -124,11 +124,11 @@ on post-fs-data
     mkdir /data/vendor/nnhal 0700 system system
     mkdir /data/vendor/nfc 0770 nfc nfc
 
-    # Haptics
-    write /sys/class/leds/vibrator/vmax 28
-
 on early-boot
     start vendor.sensors
+
+    chown system system /sys/class/leds/vibrator/vmax_mv
+    chmod 0600 /sys/class/leds/vibrator/vmax_mv
 
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
@@ -189,11 +189,6 @@ on property:sys.boot_completed=1
 
     # Migrate tasks again in case kernel threads are created during boot
     copy_per_line /dev/cpuctl/tasks /dev/cpuctl/system/tasks
-
-    # Haptics
-    write /sys/class/leds/vibrator/index 3
-    write /sys/class/leds/vibrator/duration 100
-    write /sys/class/leds/vibrator/boot_vibrator 1
 
     # Enable ZRAM on boot_complete
     rm /data/unencrypted/zram_swap
