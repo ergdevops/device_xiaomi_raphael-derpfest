@@ -207,11 +207,19 @@
 			<instance>default</instance>
 		</interface>
 	</hal>
-	<hal format="hidl" optional="true">
-		<name>vendor.dolby.hardware.dms</name>
-		<version>2.0</version>
+	<hal format="aidl" optional="true">
+		<name>android.hardware.health</name>
+		<version>1</version>
 		<interface>
-			<name>IDms</name>
+			<name>IHealth</name>
+			<instance>default</instance>
+		</interface>
+	</hal>
+	<hal format="aidl" optional="true">
+		<name>android.hardware.memtrack</name>
+		<version>1</version>
+		<interface>
+			<name>IMemtrack</name>
 			<instance>default</instance>
 		</interface>
 	</hal>
