@@ -5,3 +5,4 @@ type thermal_link_device, dev_type;
 type ultrasound_device, dev_type;
 typeattribute system_block_device super_block_device_type;
 type latency_device, dev_type;
+type power_stats_device, dev_type;
