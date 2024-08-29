@@ -1,1 +1,2 @@
 android.IRemosaicDaemon                 u:object_r:remosaic_daemon_service:s0
+power.stats-vendor                  u:object_r:hal_power_stats_vendor_service:s0

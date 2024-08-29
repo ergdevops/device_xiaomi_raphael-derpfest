@@ -458,6 +458,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Powerstats
+PRODUCT_PACKAGES += \
+    android.hardware.power.stats@1.0-service.raphael
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
