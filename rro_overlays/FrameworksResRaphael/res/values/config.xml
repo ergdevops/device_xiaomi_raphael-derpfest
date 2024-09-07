@@ -637,4 +637,5 @@
          manager will disable alpha trasformation in animations where not
          strictly needed. -->
          <bool name="config_sf_limitedAlpha">true</bool>
+     <bool name="config_powerOffAlarmEnabled">true</bool>    
 </resources>
