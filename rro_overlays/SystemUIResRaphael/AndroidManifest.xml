@@ -10,6 +10,6 @@
     <application android:allowBackup="false"/>
     <overlay
         android:isStatic="true"
-        android:priority="750"
+        android:priority="900"
         android:targetPackage="com.android.systemui" />
 </manifest>
