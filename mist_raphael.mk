@@ -20,8 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common Mist stuff.
+$(call inherit-product, vendor/mist/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -32,11 +32,12 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # Disable/Enable Blur Support, default is false
 TARGET_ENABLE_BLUR := true
 
-# Derp
-DERP_BUILDTYPE := Official
-#TARGET_USES_PICO_GAPPS := true
+MIST_MAINTAINER := "ergdev"
+TARGET_SUPPORTS_BLUR := true
+TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
-DERP_VERSION_APPEND_TIME_OF_DAY := true
+WITH_GAPPS := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := false
 
 # Quick Tap Feature
 TARGET_SUPPORTS_QUICK_TAP := true
