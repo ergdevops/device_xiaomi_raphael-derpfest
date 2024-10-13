@@ -253,3 +253,9 @@ vendor.qcom.vibrator.led.enable_effects=true
 vendor.qcom.vibrator.led.effect_ms_multiplier=10
 vendor.qcom.vibrator.led.mv_min=1600
 vendor.qcom.vibrator.led.mv_max=3000
+
+
+# adb logs enable flags
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
