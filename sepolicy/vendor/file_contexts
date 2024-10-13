@@ -71,6 +71,3 @@
 /dev/block/platform/soc/1d84000\.ufshc/by-name/vendor               u:object_r:system_block_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/system               u:object_r:system_block_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/cust                 u:object_r:system_block_device:s0
-
-#/dev/cpu_dma_latency                                                              u:object_r:latency_device:s0
-#/dev/socket/pps                                                                   u:object_r:pps_socket:s0
