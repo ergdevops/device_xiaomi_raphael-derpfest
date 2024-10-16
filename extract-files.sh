@@ -56,6 +56,11 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib64/hw/camera.qcom.so)
+            "${PATCHELF}" --remove-needed "libMegviiFacepp-0.5.2.so" "${2}"
+            "${PATCHELF}" --remove-needed "libmegface.so" "${2}"
+            "${PATCHELF}" --add-needed "libshim_megvii.so" "${2}"
+            ;;
         vendor/lib64/camera/components/com.qti.node.watermark.so)
             [ "$2" = "" ] && return 0
             grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
