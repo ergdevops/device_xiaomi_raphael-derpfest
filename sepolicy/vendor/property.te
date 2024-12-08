@@ -1,12 +1,9 @@
 # Camera
 type vendor_camera_sensor_prop, property_type, vendor_property_type;
 
-# Fingerprint
-type vendor_fp_prop, property_type;
-
 # Mlipay
 vendor_public_prop(vendor_payment_security_prop)
 
 # Thermal
-type thermal_normal_prop, property_type;
-type vendor_thermal_prop, property_type;
+type thermal_normal_prop, property_type, vendor_property_type;
+type vendor_thermal_prop, property_type, vendor_property_type;

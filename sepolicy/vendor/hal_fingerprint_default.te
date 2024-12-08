@@ -23,6 +23,7 @@ hal_client_domain(hal_fingerprint_default, vendor_hal_perf)
 
 # Allow hal_fingerprint_default to set fingerprint properties
 set_prop(hal_fingerprint_default, vendor_fp_prop)
+vendor_public_prop(vendor_fp_prop)
 
 # Allow hal_fingerprint_default to read adsprpc properties
 get_prop(hal_fingerprint_default, vendor_adsprpc_prop)
