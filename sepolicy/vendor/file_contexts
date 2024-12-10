@@ -137,6 +137,8 @@
 /sys/devices/platform/goodix_ts.0/udfps_enabled                                                                     u:object_r:vendor_sysfs_sensors:s0
 /sys/devices/platform/goodix_ts.0/double_tap_pressed                                                                u:object_r:vendor_sysfs_sensors:s0
 /sys/devices/platform/goodix_ts.0/double_tap_enabled                                                                u:object_r:vendor_sysfs_sensors:s0
+/sys/devices/platform/goodix_ts.0/single_tap_pressed                                                                u:object_r:vendor_sysfs_sensors:s0
+/sys/devices/platform/goodix_ts.0/single_tap_enabled                                                                u:object_r:vendor_sysfs_sensors:s0
 
 # Socket Device
 /dev/socket/audio_hw_socket                                                                                         u:object_r:audio_socket:s0
