@@ -267,6 +267,14 @@ on post-fs-data
 
     setprop vold.post_fs_data_done 1
 
+    # Suppress some log spamming
+    setprop log.tag.android.hardware.power-service-qti WARN
+    setprop log.tag.PowerNotificationWarningsGoogleImpl WARN
+    setprop log.tag.BatteryInfoBroadcast WARN
+    setprop log.tag.BatteryDefenderNotification WARN
+    setprop log.tag.QtiCarrierConfigHelper WARN
+    setprop log.tag.LineageHealth WARN
+
 service iop /vendor/bin/iop
     class main
     user root
