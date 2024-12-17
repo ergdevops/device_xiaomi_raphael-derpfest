@@ -491,6 +491,10 @@ PRODUCT_COPY_FILES += \
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
