@@ -519,6 +519,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES  += \
     persist.columbus.model=tap7cls_coral.tflite
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RCS
 PRODUCT_PACKAGES += \
     PresencePolling \
