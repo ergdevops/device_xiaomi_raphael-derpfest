@@ -39,6 +39,7 @@ PRODUCT_PACKAGES += \
     SystemUIResRaphael \
     TelephonyResCommon \
     TetheringConfigOverlay \
+    NcmTetheringOverlay \
     WifiOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
