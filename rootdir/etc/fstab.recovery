@@ -57,4 +57,4 @@ odm							/odm			 ext4	 ro						      wait,logical,first_stage_mount
 /dev/block/bootdevice/by-name/misc                      /misc                    emmc    defaults                                             defaults
 
 # ZRAM
-/dev/block/zram0                                        none                     swap    defaults                                             zramsize=2147483648,zram_backingdev_size=512M
+/dev/block/zram0                                        none                     swap    defaults                                             zramsize=4294967296,zram_backingdev_size=512M
