@@ -24,16 +24,12 @@
 
 # HALs
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi                           u:object_r:hal_fingerprint_default_exec:s0
-/vendor/bin/hw/android\.hardware\.light-service\.xiaomi                                             u:object_r:hal_light_default_exec:s0
 /vendor/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr                                   u:object_r:hal_power_default_exec:s0
 /vendor/bin/hw/android\.hardware\.power\.stats@1\.0-service\.raphael                                u:object_r:hal_power_stats_default_exec:s0
 /vendor/bin/sendhint                                                                                u:object_r:sendhint_vendor_exec:s0
 /vendor/bin/hw/android\.hardware\.thermal-service\.pixel                                            u:object_r:hal_thermal_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.motor@1\.0-service                                         u:object_r:hal_motor_default_exec:s0
 /vendor/bin/mlipayd@1\.1                                                                            u:object_r:hal_mlipay_default_exec:s0
-
-# HBM
-/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm           u:object_r:vendor_sysfs_hbm:s0
 
 # Hexagon DSP-side executable needed for Halide operation
 # This is labeled as public_adsprpcd_file as it needs to be read by apps
