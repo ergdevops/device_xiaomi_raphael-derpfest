@@ -490,6 +490,8 @@ PRODUCT_COPY_FILES += \
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
+PRODUCT_PACKAGES += \
+    ColumbusService
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
