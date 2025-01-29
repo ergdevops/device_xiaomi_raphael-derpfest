@@ -8,9 +8,6 @@ type camera_persist_file, file_type, vendor_persist_type;
 type vendor_fingerprint_data_file, data_file_type, file_type, vendor_persist_type;
 type vendor_sysfs_fod, sysfs_type, fs_type;
 
-# KProfiles
-type sysfs_kprofiles, sysfs_type, fs_type;
-
 # Lineage powerhal
 type sysfs_msm_subsys, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;

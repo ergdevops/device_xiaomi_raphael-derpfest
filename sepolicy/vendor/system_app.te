@@ -4,9 +4,6 @@ r_dir_file(system_app, sysfs_battery_supply);
 # Camera
 get_prop(hal_camera, vendor_camera_sensor_prop)
 
-# Allow KProfiles to be adjusted by a system app
-allow system_app sysfs_kprofiles:file rw_file_perms;
-
 # Motor
 allow system_app hal_motor_hwservice:hwservice_manager find;
 
