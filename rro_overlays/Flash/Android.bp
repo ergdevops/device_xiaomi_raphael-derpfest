@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "Flash",
+    theme: "Flash",
+    product_specific: true,
+}
