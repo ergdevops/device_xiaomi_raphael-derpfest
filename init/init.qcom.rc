@@ -211,13 +211,9 @@ on boot
 
     stop console
 
-    # Allow system to manipulate DC Dim, HBM and FPS Counter nodes
+    # CSC DC Dimming
     chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim
     chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim
-    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm
-    chmod 0660 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm
-    chown system graphics /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps
-    chmod 0660 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps
 
     # UDFPS Sensor
     chown system system /sys/devices/platform/goodix_ts.0/udfps_pressed

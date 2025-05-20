@@ -21,5 +21,3 @@ allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
 # /proc/last_kmsg
 allow init proc_last_kmsg:file r_file_perms;
 allow init proc_last_kmsg:file setattr;
-
-allow init sysfs_displayfeatures:file { setattr };

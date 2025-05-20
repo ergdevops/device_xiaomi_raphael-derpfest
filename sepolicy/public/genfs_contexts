@@ -1,2 +1,0 @@
-genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/dc_dim u:object_r:sysfs_displayfeatures:s0
-genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/hbm u:object_r:sysfs_displayfeatures:s0

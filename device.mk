@@ -251,11 +251,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey
 
-# DisplayFeatures
-PRODUCT_PACKAGES += \
-    DisplayFeatures \
-    DisplayFeaturesRaphael
-
 # F2FS
 PRODUCT_PACKAGES += \
     sg_write_buffer \

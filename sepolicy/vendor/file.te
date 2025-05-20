@@ -15,6 +15,9 @@ type sysfs_msm_boot, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;
 type pps_socket, file_type;
 
+# HBM
+type vendor_sysfs_hbm, sysfs_type, fs_type;
+
 # Torch
 type sysfs_torch, fs_type, sysfs_type;
 

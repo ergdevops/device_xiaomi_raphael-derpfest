@@ -1,3 +1,1 @@
 hal_client_domain(system_app, hal_mlipay)
-
-allow system_app sysfs_displayfeatures:file rw_file_perms;
