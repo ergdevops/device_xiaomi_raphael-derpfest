@@ -622,7 +622,7 @@ PRODUCT_PACKAGES += \
     libprocessgroup.vendor \
     libdumpstateutil.vendor \
     libjsoncpp.vendor \
-    llibpng.vendor \
+    libpng.vendor \
     libcurl.vendor \
     libpng.vendor:32
 
