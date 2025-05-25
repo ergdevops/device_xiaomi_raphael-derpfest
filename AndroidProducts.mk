@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_raphael.mk
+    $(LOCAL_DIR)/lineage_raphael.mk
