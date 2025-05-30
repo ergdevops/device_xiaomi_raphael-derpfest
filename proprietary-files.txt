@@ -614,50 +614,50 @@ vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|564543341a2f98ee2f75b7
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|7b0b612fe07a4e8520590e6941e2729227b1702e
 
 # Graphics (Adreno) - from hollywood-user-12-SQ3A.220605.009.A1-51062550053200150-release-keys & LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
-vendor/lib/egl/eglSubDriverAndroid.so|36794c5177c5d1e4c39b58297a07eb694ce9288c
-vendor/lib/egl/libEGL_adreno.so|6fa7746acee41f5c5b843502e48788b183cf0aff
-vendor/lib/egl/libGLESv1_CM_adreno.so|a8f127209e983ffa427b10fed646bd3741d3c653
-vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|530b251b1af116f518007f34d66f0801033c6178
+vendor/lib/egl/eglSubDriverAndroid.so|0f35396d34434363b24ff772f1c88aa3de03bb8a
+vendor/lib/egl/libEGL_adreno.so|42263fbfe4c6e71c3b610063480f1ac584252dd5
+vendor/lib/egl/libGLESv1_CM_adreno.so|6c1d3a89418765bae9ae98c40019b6d188063736
+vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|15ec9b1e168d8cebd2e31710ed7e9ed79d3a1748
 vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so;SYMLINK=vendor/lib/libVkLayer_ADRENO_qprofiler.so|d4f26d511cd4f98b94c18f145d3246230fbc6d25
-vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|381e2d2123f5a6bb1edcc3e281c38acf953ff08b
-vendor/lib/egl/libq3dtools_esx.so|f0018cad37986629ace20146b9ddba5f6882159d
-vendor/lib/hw/vulkan.adreno.so|c16d86d34a72be7a69b19e453a1903925abe16cc
+vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|911f084b73721ef6a63b52c5832759c7d7529734
+vendor/lib/egl/libq3dtools_esx.so|3e2d08aea38f1ede356b819ca31fd917a911c80b
+vendor/lib/hw/vulkan.adreno.so|6abf411aeb0b2052133ef52ac104c7496aa58266
+vendor/lib/libC2D2.so|0db6df32c0f7ccccab4b35a743fb3463b5460f22
 vendor/lib/libCB.so|6a3cdb29ae4a3bf199c826dd966e6bd7182a1883
-vendor/lib/libOpenCL.so|55d34f35f21e70aafb19c3bfb0edc715ef83c543
+vendor/lib/libOpenCL.so|6e75e989719cb1758ad6b9f9890eb1c13989af6a
 vendor/lib/libOpenCL_adreno.so|b90752ae53d16c9e9cede2b38d4a8109b39217b8
-vendor/lib/libadreno_app_profiles.so|4ad675ed078d0c859fbd82ba32b16acfb00c3447
-vendor/lib/libadreno_utils.so|f8cd5fe4ccf77b211ad379aee5bbf401788f1880
-vendor/lib/libgsl.so|f11778a1870dfbb1c5b6bdd202d938dd0d4ec79b
-vendor/lib/libkcl.so|a504b8d00e87070f7b39a390b5199e971ab3f3e4
-vendor/lib/libkernelmanager.so|9314f26594fbca2c3993b8c91252bffcacb0592b
-vendor/lib/libllvm-glnext.so|b65ee37ba2fb63700ea38dbe39731bf1e51459b2
-vendor/lib/libllvm-qcom.so|c5d5324ceae72f6016020e75d4b8b9dcdde7776d
-vendor/lib/libllvm-qgl.so|0fd44f9a0029a18cbc1cc5aec3562cc0a0d0060e
-vendor/lib64/egl/eglSubDriverAndroid.so|3dabc44583b7d9efae2663f359f2c5d1053d6002
-vendor/lib64/egl/libEGL_adreno.so|860ed2358e89c555b738a0bb578e68da7c00e6c8
-vendor/lib64/egl/libGLESv1_CM_adreno.so|4538678560a8aa062b00f6690e4b268896c1b59d
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|fbc82874ae90a9163257990048cbb077e6828f57
+vendor/lib/libadreno_app_profiles.so|5aabcb8192b37e10ace61b5af09d27e54900837c
+vendor/lib/libadreno_utils.so|dba1cdabec2c75990e9c194ef9abb4ab9e1dfca8
+vendor/lib/libc2d30_bltlib.so;DISABLE_CHECKELF|b39cee73121e2ee3c485f7a21344a3f653079b45
+vendor/lib/libgpudataproducer.so|84eb0a73b58c856fa0a73494e14f2a5d6c9dd7cc
+vendor/lib/libgsl.so|9efe877eb5e3d2fb7202731f82893636f8b1fb08
+vendor/lib/libkcl.so|b6f77098fa4c67415f6df9529b6aab854c365921
+vendor/lib/libkernelmanager.so|800e45c7a930297556ed76c31c9181d51f438db4
+vendor/lib/libllvm-glnext.so|98b5481940f558890a6f7023a1c3a28aa7099958
+vendor/lib/libllvm-qcom.so|2873a66df0c96d32705adea20080457b775eb6dc
+vendor/lib/libllvm-qgl.so|1370f4106889515cf7c4cf1dbad030a929a6aea4
+vendor/lib64/egl/eglSubDriverAndroid.so|7593d929e6eb6f4814de0177896fb6cfd9164e61
+vendor/lib64/egl/libEGL_adreno.so|4cad3c57e2f36a7ee5dae4a40ebb21fbc7f8d6fe
+vendor/lib64/egl/libGLESv1_CM_adreno.so|4fd6b5f09cd5723e785a6c4792a58e9e39ff5678
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|10f6f770c6f9e9f1ff83fc337068fba11a6aa9ea
 vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so;SYMLINK=vendor/lib64/libVkLayer_ADRENO_qprofiler.so|2fa3a828512eadd1afbb132099547d496ba65be2
-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|421f7776fda70f2ba8212790e9ac69a3f7288f77
-vendor/lib64/egl/libq3dtools_esx.so|22cc73afe2f8167a0f9953a33ff2eaa465dcfb34
-vendor/lib64/hw/vulkan.adreno.so|f6db97058a3b806367b37b71b9961c00dbbb4f0c
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|09d218fc64ebaa58cf03580b780765636f2e4192
+vendor/lib64/egl/libq3dtools_esx.so|4ceb3843c3dd821b8a330e8d103a720c8a39470e
+vendor/lib64/hw/vulkan.adreno.so|52628cf8e3b95bf7aec0ab6b701332edce43ead5
+vendor/lib64/libC2D2.so|3d2fd1c31402cd732bab96710dee9b72247952e1
 vendor/lib64/libCB.so|1e1f68f4e954617b8879ca980367ef53e82864a3
-vendor/lib64/libOpenCL.so|98fe18af9ed6b4c366f0d0ca17c707afca57f3a8
+vendor/lib64/libOpenCL.so|ecdf2882b7d531c256a780db55fe41a52532242f
 vendor/lib64/libOpenCL_adreno.so|2b1dae0e6b8a8cec153a4b68683c6c3b0da3ce54
-vendor/lib64/libadreno_app_profiles.so|26b8f09515c6b8b30a2c6d250434af6f874ced4e
-vendor/lib64/libadreno_utils.so|fbac8ba895413d3a9ded32226b0f494d33aad6f0
-vendor/lib64/libgsl.so|1420520b888230d4735c2a342314e7c96e649ed5
-vendor/lib64/libkcl.so|ca6e21ab2bffb2513d3c0cd2088fb2112b230833
-vendor/lib64/libkernelmanager.so|b1e5b3860bd2fab9074731c4d24583dfa0897e00
-vendor/lib64/libllvm-glnext.so|c297d4eaf59a52474f629fe049a61161b3dbea63
-vendor/lib64/libllvm-qcom.so|d36b8211b59ff12f9bf5e13d0b4253a77f28d8ac
-vendor/lib64/libllvm-qgl.so|e69f777067b49a4e54970b5d6b0e7622f56c1412
-
-# Graphics (Adreno) - from nabu V13.0.3.0.RKXCNXM
-vendor/lib/libC2D2.so|bf22239cc4a003a6cd1b3e273f60dc37e4d51730
-vendor/lib/libc2d30_bltlib.so;DISABLE_CHECKELF|d1f37cf4d50619f59c5b199893fa93f134973647
-vendor/lib64/libC2D2.so|21a3b027b0857ee910f9db3e7558f35aafaadef5
-vendor/lib64/libc2d30_bltlib.so;DISABLE_CHECKELF|870b3b1950b3c918ba73292630d2a3dd1249dda7
+vendor/lib64/libadreno_app_profiles.so|22c998e0ce12c116dd492c8362624de614af56a4
+vendor/lib64/libadreno_utils.so|1c460f799d9c2d7b97b5c6977cbd68f2ee8ed827
+vendor/lib64/libc2d30_bltlib.so;DISABLE_CHECKELF|b204da5d59224ec28f452ebf662f187be9214266
+vendor/lib64/libgpudataproducer.so|ae1e97612796a06a629f56ffb0dca4afb325b6ce
+vendor/lib64/libgsl.so|430f8f9a66f9abaf43a6d7fb22f7398f0f92e1b8
+vendor/lib64/libkcl.so|f3cadc5c626a02ae354ad1bd082beed6fb640b1b
+vendor/lib64/libkernelmanager.so|192da1584dbb837723b68d6c83835efd4f02e3f7
+vendor/lib64/libllvm-glnext.so|e1f52bbdb0ae2b48f19cbe31a6a32e2ff9a2a6eb
+vendor/lib64/libllvm-qcom.so|6024789e365044430a4d1c420f86bf0ce00c082f
+vendor/lib64/libllvm-qgl.so|8f4a956f32af21d095d84adcc81664919efd5738
 
 # Graphics (DRM) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/lib64/libsdedrm.so|7cf5f4e7e4dacae88e317d3397fdf25dabe45b65
@@ -1163,14 +1163,14 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4ba792ee3234dca4cd7ebbd7b3f9003c800f51b4
 
 # WiFi Display (system) - LA.QSSI.15.0.r1
+system/framework/WfdCommon.jar|45a5b6c22ee5e3eae618c07be1869a7175077828
+system_ext/bin/wfdservice64|710637051aaf51050e4c9a102a65fc859fbdfdfd
+system_ext/bin/wfdservice|b7b774b649b601f5a64baf79aa5e1c530278a9bc
 system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml|6669d5ee462c981663b8ac573d84d334e4eed96c
 system_ext/etc/seccomp_policy/wfdservice.policy|37994de64d6bd127898bd556cd614db459fe07ec
 system_ext/etc/seccomp_policy/wfdservice64.policy|1e331272649395423b11c575892e0bdc9433b820
 system_ext/etc/wfdconfigsink.xml|cb78df66948314a75080a4161321fb3111a0785a
-system/framework/WfdCommon.jar|45a5b6c22ee5e3eae618c07be1869a7175077828
-system_ext/bin/wfdservice64|710637051aaf51050e4c9a102a65fc859fbdfdfd
-system_ext/bin/wfdservice|b7b774b649b601f5a64baf79aa5e1c530278a9bc
 system_ext/lib/libmmosal.so|d54f22775394bbe0668f0f40fd310d8b38945405
 system_ext/lib/libmmparser_lite.so|82f4efae857bca5a3206e4c2189340e58054164c
 system_ext/lib/libmmrtpdecoder.so|1c049ebf61aea3628d1fd9436be0e008ddc2d7d5
@@ -1220,6 +1220,9 @@ system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so|c3f9d7afb
 system_ext/priv-app/WfdService/WfdService.apk;NODEXPO|7a756afb81934a02cd54f8316b7922279766b043
 
 # WiFi Display (vendor) - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/wfdhdcphalservice|40c3d329f49cbb56286d6a550cc8b12ac95048df
+vendor/bin/wfdvndservice|194bb3aef5237f05d0c8fab2c88846147a6cc55a
+vendor/bin/wifidisplayhalservice|36bddae1febbee1bb53a80646d17c0fe36199757
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc|c266f08783a17f6583e3f22c85e55b0c200442ea
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|576ce4393b7746b77a230745aa9e9ee3bd31b17d
 vendor/etc/init/wfdvndservice.rc|42e28fb8e0bf00620d7b9939b5bd3164ca671033
@@ -1227,9 +1230,6 @@ vendor/etc/seccomp_policy/wfdhdcphalservice.policy|23b46af886f3233c2bddff87507ae
 vendor/etc/seccomp_policy/wfdvndservice.policy|b46f0c22a1f9b65c6750205e161c0a3f84ac716b
 vendor/etc/seccomp_policy/wifidisplayhalservice.policy|698f46d3a3b89be125e2fe88439c770e5c647037
 vendor/etc/wfdconfig.xml|9e13371f7ae509cc0bbb3f2ace93c5ea5d87bf0f
-vendor/bin/wfdhdcphalservice|40c3d329f49cbb56286d6a550cc8b12ac95048df
-vendor/bin/wfdvndservice|194bb3aef5237f05d0c8fab2c88846147a6cc55a
-vendor/bin/wifidisplayhalservice|36bddae1febbee1bb53a80646d17c0fe36199757
 vendor/lib/libFileMux_proprietary.so|b1e2801f2be356ff88bf5d6269ef7f9c655dff67
 vendor/lib/libmm-hdcpmgr.so|057fc29807be0f2527c3026d01dff98cfe9018ad
 vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor|6f71fd1d54d6ca8df7d362a72517b082ed412bbe
