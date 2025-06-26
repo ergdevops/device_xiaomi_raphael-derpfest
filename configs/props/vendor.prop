@@ -243,3 +243,10 @@ vendor.qcom.vibrator.led.mv_max=3000
 
 # Model properties
 import /system/vendor.${ro.boot.hwc}.prop
+
+
+
+# adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
